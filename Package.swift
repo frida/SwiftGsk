@@ -10,10 +10,10 @@ let package = Package(
             targets: ["Gsk"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/gir2swift.git",     branch: "development"),
-        .package(url: "https://github.com/rhx/SwiftGObject.git",  branch: "development"),
-        .package(url: "https://github.com/rhx/SwiftGraphene.git", branch: "development"),
-        .package(url: "https://github.com/rhx/SwiftGdk.git", branch: "gtk4-development"),
+        .package(url: "https://github.com/frida/gir2swift.git",     branch: "development"),
+        .package(url: "https://github.com/frida/SwiftGObject.git",  branch: "development"),
+        .package(url: "https://github.com/frida/SwiftGraphene.git", branch: "development"),
+        .package(url: "https://github.com/frida/SwiftGdk.git", branch: "gtk4-development"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
